@@ -22,6 +22,9 @@ const lgtv = require("lgtv2")({
     url: 'ws://0.0.0.0:3000'
 });
 
+## Note
+This is only a hobby project with very little effort. No unit-tests have been made. However this has been working like a charm for a year now.
+
 ```
 2. Change WIFI-settings under dock.ino
 ```c
