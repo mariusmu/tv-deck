@@ -54,7 +54,7 @@ void handlePress(int key) {
 }
 
 void sendReq (int sec) {
-  if (client.connect(host,3000))     // "184.106.153.149" or api.thingspeak.com
+  if (client.connect(host,3000)) 
   { 
     Serial.println("Connected to host");
     client.print("GET /execute/" + String(sec) + " ");
